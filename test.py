@@ -9,6 +9,8 @@ from Annexe import IntegerModRing
 
 
 
+
+
 a = IntegerModRing(25)
 
 x = a.pow(16, 2345677)
