@@ -19,7 +19,8 @@ import Dictionary
 # print(decodedMessage)
 
 
-message = "Hello world, today we will learn how to code a message which could be as long as u want"
+# message = "Hello world, today we will learn how to code a message which could be as long as u want"
+message = "Inserer ici n'importe quelle phrase, quelle soit valide ou non, a votre convenance"
 print(message)
 
 L = Dictionary.encode(message)

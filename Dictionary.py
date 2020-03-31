@@ -1,8 +1,13 @@
 import ModRing
 from ModRing import IntegerModRing
 import re
+import random
 
 alphabet = "\n abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789,;:!?.'()&%-+*/"
+charList = list(alphabet)
+random.shuffle(charList)
+alphabet = "ø"+"".join(charList)
+
 p = 10
 
 
@@ -13,7 +18,6 @@ def encodageBloc(message):
     for _ in message:
         n += alphabet.index(_)*(len(alphabet)**cpt)
         cpt += 1
-        # tab.append(alphabet.index(_))
     return n
 
 def decodageBloc(n):
@@ -24,7 +28,8 @@ def decodageBloc(n):
         letter = alphabet[n//((len(alphabet)**cpt))]
         n = n%((len(alphabet)**cpt))
         cpt -= 1
-        message = letter+message
+        if letter != "ø":
+            message = letter+message
     return message
 
 
