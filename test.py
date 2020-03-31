@@ -8,7 +8,9 @@ from ModRing import IntegerModRing
 import Euclide
 
 
+alphabet = "\n abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ,;:!?.'()&%-+*/"
 
+print(alphabet[0])
 
 
 
