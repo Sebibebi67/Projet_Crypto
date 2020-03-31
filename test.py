@@ -25,7 +25,7 @@ import Euclide
 
 
 
-a = IntegerModRing(25)
+a = IntegerModRing(26)
 
 x = a.pow(16, 2345677)
 print(x)
