@@ -41,12 +41,6 @@ def etenduRec(a, b, u0, u1, v0, v1):
         return r0, u0, v0
     
 
-
-
-
-
-
-
 def invModul(a, n):
     """inverse a modulo n"""
     q = 0

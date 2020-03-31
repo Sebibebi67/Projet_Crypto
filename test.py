@@ -15,20 +15,20 @@ import Euclide
 # print(a, b)
 
 
-(i, j) = (45, 63)
-(x, y, z) = Euclide.etenduIt(i, j)
-(x2, y2, z2) = Euclide.etenduRecInit(i, j)
-print(x, y*i+j*z)
-print(x2, y2*i+j*z2)
+# (i, j) = (45, 63)
+# (x, y, z) = Euclide.etenduIt(i, j)
+# (x2, y2, z2) = Euclide.etenduRecInit(i, j)
+# print(x, y*i+j*z)
+# print(x2, y2*i+j*z2)
 
 
 
 
 
-# a = IntegerModRing(25)
+a = IntegerModRing(25)
 
-# x = a.pow(16, 2345677)
-# print(x)
+x = a.pow(16, 2345677)
+print(x)
 
 # y = a.pow(17, -1)
 # print(y)
