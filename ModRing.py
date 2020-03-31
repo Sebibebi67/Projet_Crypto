@@ -1,6 +1,9 @@
 import Euclide
 
 class IntegerModRing:
+    """ Initialize a Integer Ring like a = IntegerModRing(25)
+        Then you can work in your ring :
+        for example, you can use calculate a.pow(2, 6) which calculates 2^6 mod 25"""
 
     mod = 0
 
