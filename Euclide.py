@@ -13,7 +13,7 @@ def simpleRec(a, b):
         return b
     
 
-def etenduIt(a, b):
+def extendedIt(a, b):
     (r0,r1) = (a, b)
     (u0, u1) = (1, 0)
     (v0, v1) = (0, 1)
@@ -25,10 +25,10 @@ def etenduIt(a, b):
         (v0, v1) = (v1, v0 - q * v1)
     return r0, u0, v0
 
-def etenduRecInit(a, b):
-    return etenduRec(a, b, 1, 0, 0, 1)
+def extendedRecInit(a, b):
+    return extendedRec(a, b, 1, 0, 0, 1)
 
-def etenduRec(a, b, u0, u1, v0, v1):
+def extendedRec(a, b, u0, u1, v0, v1):
     (r0,r1) = (a, b)
 
     if r1!=0:
@@ -36,13 +36,13 @@ def etenduRec(a, b, u0, u1, v0, v1):
         (r0, r1) = (r1, r0 - q * r1)
         (u0, u1) = (u1, u0 - q * u1)
         (v0, v1) = (v1, v0 - q * v1)
-        return etenduRec(r0, r1, u0, u1, v0, v1)
+        return extendedRec(r0, r1, u0, u1, v0, v1)
     else:
         return r0, u0, v0
     
 
-def invModul(a, n):
-    """inverse a modulo n"""
+def revModul(a, n):
+    """reverse a modulo n"""
     q = 0
     (r0,r1) = (n,a)
     (v0,v1) = (0,1)
@@ -54,9 +54,9 @@ def invModul(a, n):
         (v0,v1) = (v1,v0-v1*q)
 
     if r0 != 1:
-        print (a, " n'est pas inversible modulo ", n)
+        print (a, " is not reversible modulo ", n)
         return 0
     else:
-        print (a, " est inversible modulo ", n)
+        print (a, " is reversible modulo ", n)
         return v0%n
 

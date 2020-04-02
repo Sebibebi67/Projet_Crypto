@@ -17,14 +17,16 @@ class IntegerModRing:
             print("error : ", a, " <-1")
             return 0
         elif a == -1:
-            return Euclide.invModul(x, self.mod)
+            return Euclide.revModul(x, self.mod)
+        elif a == 0:
+            return 1
         else :
             if a%2 == 0 :
-                y = pow(x, a//2)%self.mod
-                return y*y%self.mod
+                y = self.pow(x, a//2)%self.mod
+                return (y**2)%self.mod
             else :
-                y = pow(x, a//2)%self.mod
-                return x*y*y%self.mod
+                y = self.pow(x, a//2)%self.mod
+                return (x*y**2)%self.mod
 
     def add(self, x, y):
         """return x + y mod n"""
