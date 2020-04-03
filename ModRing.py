@@ -32,7 +32,7 @@ class IntegerModRing:
         """return x + y mod n"""
         return (x+y)%self.mod
 
-    def prod(self, x, y):
+    def mult(self, x, y):
         """return x*y mod n"""
         return (x*y)%self.mod
 

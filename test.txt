@@ -1,0 +1,1809 @@
+Traceback (most recent call last):
+  File "./test.py", line 23, in <module>
+    print(Prime.prime(1000))
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/Prime.py", line 76, in prime
+    test = miller(x, 100)
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/Prime.py", line 38, in miller
+    if not baseMiller(n, a):
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/Prime.py", line 16, in baseMiller
+    x = ring.pow(a, d)
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 3 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 2 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 2 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 3 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 3 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 4 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 2 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 3 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 2 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 2 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 2 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 4 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 2 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 2 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 2 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 2 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 2 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 3 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 3 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 2 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 3 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 3 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 5 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 4 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 2 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 3 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 2 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 3 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 4 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 7 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 2 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 2 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 6 more times]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  [Previous line repeated 1 more time]
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 28, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 25, in pow
+    y = self.pow(x, a//2)%self.mod
+  File "/home/sebibebi67/Documents/Cours/Enssat/2A/Crypto/Projet_Crypto/ModRing.py", line 16, in pow
+    if a<-1:
+RecursionError: maximum recursion depth exceeded in comparison
