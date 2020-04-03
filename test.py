@@ -37,4 +37,5 @@ import RSA
 # print(p, q, n)
 
 
-RSA.example()
+# RSA.example()
+Dictionary.example()
