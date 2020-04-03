@@ -50,6 +50,9 @@ def decoding(integerList):
     return message
 
 def example():
+    print("------Testing Dictonary------")
+    print("\n\n")
+
     print("------This is our alphabet------")
     print(alphabet)
     print("\n\n")

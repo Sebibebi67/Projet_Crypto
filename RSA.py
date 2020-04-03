@@ -26,6 +26,9 @@ def encryption(x, n, a):
 
 
 def example():
+    print("------Testing RSA------")
+    print("\n\n")
+
     print("------Creating p & q------")
     p = createPrime()
     q = createPrime()
@@ -77,6 +80,7 @@ def example():
         L3.append(encryption(_, n, b))
     decodedMessage = Dictionary.decoding(L3)
     print("decoded message : ", decodedMessage)
+    print("\n\n")
 
 
     
