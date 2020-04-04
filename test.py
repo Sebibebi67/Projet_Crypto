@@ -14,13 +14,11 @@ import Dictionary
 import RSA
 
 import Prime
+import ElGamal
 
 
 
 # RSA.example()
 # Dictionary.example()
 
-# print(Prime.miller(nextprime(2**10000000000), 100))
-# print(Prime.baseMiller(3, 2))
-
-print(Prime.prime(5000))
+print(ElGamal.prime(500))
