@@ -11,14 +11,18 @@ from numpy import random
 from sympy import *
 
 import Dictionary
-import RSA
-
-import Prime
 import ElGamal
+import Euclide
+import RSA
+import Prime
 
 
 
 # RSA.example()
+
 # Dictionary.example()
 
-print(ElGamal.prime(500))
+# print(ElGamal.prime(500))
+
+# B = IntegerModRing(5)
+# print(B.add(4,3))

@@ -8,7 +8,7 @@ charList = list(alphabet)
 random.shuffle(charList)
 alphabet = "ø"+"".join(charList)
 
-p = 13
+p = 12
 
 
 def encodingBlock(message):
@@ -34,7 +34,7 @@ def decodingBlock(n):
 
 
 def encoding(message):
-    """Parses the message into 10 chars blocs"""
+    """Parses the message into p chars blocs"""
     string = '.{1,'+str(p)+'}'
     parsedMessage = re.findall(string, message)
     integerList = []

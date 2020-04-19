@@ -35,7 +35,4 @@ class IntegerModRing:
     def mult(self, x, y):
         """return x*y mod n"""
         return (x*y)%self.mod
-
-
-# class PolynomialRing:
         
